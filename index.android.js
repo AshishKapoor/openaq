@@ -10,8 +10,8 @@ import React, { Component } from 'react';
 import { Alert, AppRegistry, Text, StyleSheet, View, StatusBar } from 'react-native';
 import {OffCanvasReveal} from 'react-native-off-canvas-menu'
 import Icon from 'react-native-vector-icons/EvilIcons'
-import Menu1 from './src/MenuScenes/Menu1'
-import Menu2 from './src/MenuScenes/Menu2'
+import Menu1 from './src/menuScenes/menu1'
+import Menu2 from './src/menuScenes/menu2'
 
 
 class openaq extends Component {

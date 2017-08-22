@@ -9,7 +9,7 @@
 	"dependencies": {
 		"StatusBar": "^1.0.0",
 		"react": "16.0.0-alpha.12",
-		"react-native": "0.47.1",
+		"react-native": "^0.47.1",
 		"react-native-hamburger": "0.0.2",
 		"react-native-off-canvas-menu": "^0.1.31",
 		"react-native-vector-icons": "^4.3.0",
