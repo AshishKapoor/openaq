@@ -25,7 +25,6 @@ class openaq extends Component {
 
   render() {
     console.disableYellowBox = true;
-    
     const statusBar = this.state.menuOpen ?
       <StatusBar
         backgroundColor="black"
@@ -34,9 +33,7 @@ class openaq extends Component {
 
     return (
       <View style={{flex: 1}}>
-
         { statusBar }
-
         <OffCanvasReveal
         active={this.state.menuOpen}
         onMenuPress={this.handleMenu.bind(this)}
