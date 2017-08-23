@@ -1,8 +1,8 @@
 /**
- * Air Quality Now.
- * By Ashish Kapoor.
- * All rights reserved.
- */
+* Air Quality Now.
+* By Ashish Kapoor.
+* All rights reserved.
+*/
 
 import React, { Component } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, StatusBar } from 'react-native'
@@ -31,6 +31,7 @@ export default class Menu1 extends Component {
       }
       rightButton={ rightButtonConfig }
       />
+
       <MapView
       style= {styles.mapView}
       initialRegion={{
@@ -39,6 +40,8 @@ export default class Menu1 extends Component {
         latitudeDelta: 0.0922,
         longitudeDelta: 0.0421,
       }}
+      
+
       />
       </View>
     )
@@ -62,7 +65,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     backgroundColor: '#1abc9c'
   },
-  btnText:{
+  btnText: {
     fontSize: 16,
     top: 13,
     left: 7
@@ -70,7 +73,7 @@ const styles = StyleSheet.create({
   sideBar: {
     flex: 1,
     flexDirection: 'row',
-
+    
   },
   mapView: {
     flex: 10,
