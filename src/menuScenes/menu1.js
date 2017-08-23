@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, StatusBar } from 'react-native'
-import Hamburger from 'react-native-hamburger';
 import MapView from 'react-native-maps';
+import NavigationBar from 'react-native-navbar';
 
-export default class Menu2 extends Component {
+export default class Menu1 extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -13,22 +13,18 @@ export default class Menu2 extends Component {
   
   render() {
     return(
-      <View style={styles.container}>
-      <StatusBar
-      backgroundColor="white"
-      barStyle="light-content"
-      animated={true}
+      <View style={styles.container}>      
+      <NavigationBar
+      title={titleConfig}
+      leftButton={
+        <TouchableOpacity 
+        style={styles.sideBar}
+        onPress={ () => this.props.handleMenu() }>
+        <Text style={styles.btnText}>{'Home'}</Text>
+        </TouchableOpacity>
+      }
+      rightButton={ rightButtonConfig }
       />
-      <View style={styles.sideBar}>
-      <Hamburger 
-      style={styles.sideBar}
-      active={this.state.active} 
-      type="spinArrow" 
-      onPress= {
-        () => this.setState({active: !this.state.active}),
-        () => this.props.handleMenu()
-      } />
-      </View>
       <MapView
       style= {styles.mapView}
       initialRegion={{
@@ -43,18 +39,35 @@ export default class Menu2 extends Component {
   }
 }
 
+const rightButtonConfig = {
+  title: 'Info',
+  tintColor: 'black',
+  handler: () => alert('By Ashish on React Native.'),
+};
+
+const titleConfig = {
+  title: 'Air Quality Now',
+  tintColor: 'black'
+};
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
     backgroundColor: '#1abc9c'
   },
+  btnText:{
+    fontSize: 16,
+    top: 13,
+    left: 7
+  },
   sideBar: {
     flex: 1,
-    top: 20,
-    left: 10  
+    flexDirection: 'row',
+
   },
   mapView: {
-    flex: 10
+    flex: 10,
+    flexDirection: 'row'
   }
 })

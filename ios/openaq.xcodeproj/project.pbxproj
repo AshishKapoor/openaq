@@ -41,7 +41,6 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		774436367EF14C04879D4082 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 629976FF4D86452FBA2A71F4 /* Entypo.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		89E9C1111F4D39ED00D7A7A4 /* GoogleMapsApi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89E9C1101F4D39EC00D7A7A4 /* GoogleMapsApi.plist */; };
 		9313DBCBD2D5AEFA45672E05 /* libPods-openaq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED41C19811E18E83A4ECC1F7 /* libPods-openaq.a */; };
 		A544C3BAB2CD4D4E9DA73D3C /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 237A2F55CA3A4BA994E87CF5 /* Octicons.ttf */; };
 		B8C0E78150CB447E82483199 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E383169A9074F80A5D7B1E1 /* Foundation.ttf */; };
@@ -286,13 +285,6 @@
 			remoteGlobalIDString = 11FA5C511C4A1296003AC2EE;
 			remoteInfo = AirMaps;
 		};
-		89E9C0FC1F4D378100D7A7A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 89E9C0F81F4D378100D7A7A4 /* PPTMapView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = PPTMapView;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -335,8 +327,6 @@
 		805FF0CFB2B44108B3DFCD76 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		889F2BA471E13E9F29212018 /* Pods-openaqTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openaqTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-openaqTests/Pods-openaqTests.release.xcconfig"; sourceTree = "<group>"; };
-		89E9C0F81F4D378100D7A7A4 /* PPTMapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PPTMapView.xcodeproj; sourceTree = "<group>"; };
-		89E9C1101F4D39EC00D7A7A4 /* GoogleMapsApi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = GoogleMapsApi.plist; path = "../node_modules/react-native-maps-google/ios/GoogleMapsApi.plist"; sourceTree = "<group>"; };
 		89E9C1131F4D3C0600D7A7A4 /* libPPTMapView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPPTMapView.a; path = "../node_modules/react-native-maps-google/ios/build/Debug-iphoneos/libPPTMapView.a"; sourceTree = "<group>"; };
 		89E9C1161F4D3C3700D7A7A4 /* libPPTMapView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPPTMapView.a; path = "../node_modules/react-native-maps-google/ios/build/Debug-iphoneos/libPPTMapView.a"; sourceTree = "<group>"; };
 		9E383169A9074F80A5D7B1E1 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
@@ -487,7 +477,6 @@
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				89E9C1101F4D39EC00D7A7A4 /* GoogleMapsApi.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -550,7 +539,6 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				89E9C0F81F4D378100D7A7A4 /* PPTMapView.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -632,14 +620,6 @@
 			isa = PBXGroup;
 			children = (
 				89E9C0D31F4D368F00D7A7A4 /* libAirMaps.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		89E9C0F91F4D378100D7A7A4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				89E9C0FD1F4D378100D7A7A4 /* libPPTMapView.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -784,10 +764,6 @@
 				{
 					ProductGroup = 89E9C0CF1F4D368F00D7A7A4 /* Products */;
 					ProjectRef = F76AEA8519E34311AD32004C /* AirMaps.xcodeproj */;
-				},
-				{
-					ProductGroup = 89E9C0F91F4D378100D7A7A4 /* Products */;
-					ProjectRef = 89E9C0F81F4D378100D7A7A4 /* PPTMapView.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -1066,13 +1042,6 @@
 			remoteRef = 89E9C0D21F4D368F00D7A7A4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		89E9C0FD1F4D378100D7A7A4 /* libPPTMapView.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libPPTMapView.a;
-			remoteRef = 89E9C0FC1F4D378100D7A7A4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1098,7 +1067,6 @@
 				4607731449E64EDE9A65FD75 /* MaterialIcons.ttf in Resources */,
 				A544C3BAB2CD4D4E9DA73D3C /* Octicons.ttf in Resources */,
 				D9043C152C124E13A4F78ECE /* SimpleLineIcons.ttf in Resources */,
-				89E9C1111F4D39ED00D7A7A4 /* GoogleMapsApi.plist in Resources */,
 				F20B3A029F154268A0944392 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

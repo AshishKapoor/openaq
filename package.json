@@ -14,6 +14,7 @@
 		"react-native-hamburger": "0.0.2",
 		"react-native-maps": "^0.16.2",
 		"react-native-maps-google": "^1.1.4",
+		"react-native-navbar": "^2.0.1",
 		"react-native-off-canvas-menu": "^0.1.31",
 		"react-native-vector-icons": "^4.3.0",
 		"react-navigation": "^1.0.0-beta.11"
