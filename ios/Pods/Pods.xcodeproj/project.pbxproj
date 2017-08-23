@@ -7,52 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		082732B3DDDE76220CF8436634BE4151 /* Pods-openaq-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2926236F4D4054E266309C3A42B1B19 /* Pods-openaq-tvOSTests-dummy.m */; };
 		2BA8777C0FC3B15192075B199BC94924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		70106156EB5BCFB19C7CCFA8016F0FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7E8C6D9B02B6C6EA82DC52F40E951B1B /* Pods-openaqTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C553681C14669D47CB73230EC2BCF /* Pods-openaqTests-dummy.m */; };
-		B50328D51E08F0A528DB3FC75B3737FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E99871A4AAF29A0DF598F11FE048D21A /* Pods-openaq-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0FEFEB82DA598BC871F807D6C38FA6 /* Pods-openaq-dummy.m */; };
+		E99871A4AAF29A0DF598F11FE048D21A /* Pods-openaq-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FBCD2A8B97D9285938CF810C243C99 /* Pods-openaq-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0123880CC68899A0DA2B5FE1240A4908 /* Pods-openaqTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openaqTests.release.xcconfig"; sourceTree = "<group>"; };
-		18E8DC1FC444C28695F67733215BC01C /* Pods-openaq-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openaq-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1BB93828F887A2FEEB3CE11ECF93D0AC /* Pods-openaq-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openaq-acknowledgements.plist"; sourceTree = "<group>"; };
-		1BBDC58AE1EBDC805E619122DFE74B39 /* Pods-openaq-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-openaq-resources.sh"; sourceTree = "<group>"; };
-		1DF5FFBEE24918C4082DD00540B3353E /* libPods-openaqTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-openaqTests.a"; path = "libPods-openaqTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		272B1D21BFDC4FF84FFE02DBED858E25 /* Pods-openaq-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openaq-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		35110F0F46227675D55731154F633550 /* Pods-openaqTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-openaqTests-resources.sh"; sourceTree = "<group>"; };
-		4AC35963324F07E0D73F838054245DF1 /* Pods-openaq-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-openaq-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5C867D3CF37B41F59FC8E5FD9C6C6420 /* Pods-openaqTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-openaqTests-frameworks.sh"; sourceTree = "<group>"; };
-		613FBC55C256724B48FFC6D708F0E5D5 /* Pods-openaqTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openaqTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		01FBCD2A8B97D9285938CF810C243C99 /* Pods-openaq-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-openaq-dummy.m"; sourceTree = "<group>"; };
+		44BB63119F8DC4C670232F4C12B691DC /* Pods-openaq-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-openaq-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68A0F3A199526E04607F724F72D5F4D0 /* Pods-openaq-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-openaq-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
-		69A8A86BA696E9537A1D2A2D0B73C93C /* Pods-openaqTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openaqTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CAE33B32488CECACCC001794D3C45FF /* Pods-openaq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openaq.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94EA16BFA8335845095CEB9947D432F2 /* Pods-openaqTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-openaqTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A2718B28991D2CA79EBB21271AA985B1 /* Pods-openaq-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-openaq-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A2926236F4D4054E266309C3A42B1B19 /* Pods-openaq-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-openaq-tvOSTests-dummy.m"; sourceTree = "<group>"; };
-		A92EA23F325C6E83A107B5C5B2E01A02 /* libPods-openaq.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-openaq.a"; path = "libPods-openaq.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B26C553681C14669D47CB73230EC2BCF /* Pods-openaqTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-openaqTests-dummy.m"; sourceTree = "<group>"; };
-		B4B5D46B26FB99F03E51C78A4AE50AAF /* Pods-openaq-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-openaq-tvOSTests-resources.sh"; sourceTree = "<group>"; };
-		B9F17DD3723BF9DB4A218ECEA0873797 /* Pods-openaq-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openaq-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		BF0FEFEB82DA598BC871F807D6C38FA6 /* Pods-openaq-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-openaq-dummy.m"; sourceTree = "<group>"; };
-		C30C375BCB2D8BE1B593E57AEC25A43D /* Pods-openaq-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-openaq-frameworks.sh"; sourceTree = "<group>"; };
-		E519572F2B136F057BC924117A08FBFD /* Pods-openaq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openaq.debug.xcconfig"; sourceTree = "<group>"; };
-		E8217533767E83C777456BCDF823610E /* libPods-openaq-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-openaq-tvOSTests.a"; path = "libPods-openaq-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF5D1D69E705539EEBFEFB04FD96754E /* Pods-openaq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openaq.release.xcconfig"; sourceTree = "<group>"; };
+		9A0448E42B1CB6798419DB882CFD64DA /* Pods-openaq-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-openaq-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A073806B99B7E56DE8E50E4C89F01C4B /* Pods-openaq-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-openaq-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1762FF33BE639B6ECE275F24B78FDDD /* libPods-openaq.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-openaq.a"; path = "libPods-openaq.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46F62DE2E1697B194B2FDBE1A8676FC /* Pods-openaq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openaq.debug.xcconfig"; sourceTree = "<group>"; };
+		F17605D3AE1C4B17CAC6723D922CC2E6 /* Pods-openaq-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-openaq-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		51FE1E2726408FD09C1C0345F25F07E2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70106156EB5BCFB19C7CCFA8016F0FCD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C1A4360A832D054FC9E220CED8F27ED0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,45 +33,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F141BC715F6CFDEE960AFECB2E096BD0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B50328D51E08F0A528DB3FC75B3737FA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A9EBFC7315506E8305EA52C8B09AAC9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				921C15FB938E0BBE36EB3501A68DCE2A /* Pods-openaq */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BB90E96E34A5355DEB83276CDF96C595 /* Products */,
-				A0DB9ADD74A99B8A0914E1DF05135C82 /* Targets Support Files */,
+				FEA1B1E2EC8380EA97AC5D7BAA7C922B /* Products */,
+				4A9EBFC7315506E8305EA52C8B09AAC9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A0DB9ADD74A99B8A0914E1DF05135C82 /* Targets Support Files */ = {
+		921C15FB938E0BBE36EB3501A68DCE2A /* Pods-openaq */ = {
 			isa = PBXGroup;
 			children = (
-				D5DF798A702B31BD59B0D37481589FA2 /* Pods-openaq */,
-				BF623F7C18134C9A5B799A23B5F89995 /* Pods-openaq-tvOSTests */,
-				F6736AC32DC41744095EC7A67E444C97 /* Pods-openaqTests */,
+				9A0448E42B1CB6798419DB882CFD64DA /* Pods-openaq-acknowledgements.markdown */,
+				A073806B99B7E56DE8E50E4C89F01C4B /* Pods-openaq-acknowledgements.plist */,
+				01FBCD2A8B97D9285938CF810C243C99 /* Pods-openaq-dummy.m */,
+				F17605D3AE1C4B17CAC6723D922CC2E6 /* Pods-openaq-frameworks.sh */,
+				44BB63119F8DC4C670232F4C12B691DC /* Pods-openaq-resources.sh */,
+				D46F62DE2E1697B194B2FDBE1A8676FC /* Pods-openaq.debug.xcconfig */,
+				8CAE33B32488CECACCC001794D3C45FF /* Pods-openaq.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BB90E96E34A5355DEB83276CDF96C595 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A92EA23F325C6E83A107B5C5B2E01A02 /* libPods-openaq.a */,
-				E8217533767E83C777456BCDF823610E /* libPods-openaq-tvOSTests.a */,
-				1DF5FFBEE24918C4082DD00540B3353E /* libPods-openaqTests.a */,
-			);
-			name = Products;
+			name = "Pods-openaq";
+			path = "Target Support Files/Pods-openaq";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -110,21 +77,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF623F7C18134C9A5B799A23B5F89995 /* Pods-openaq-tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				4AC35963324F07E0D73F838054245DF1 /* Pods-openaq-tvOSTests-acknowledgements.markdown */,
-				272B1D21BFDC4FF84FFE02DBED858E25 /* Pods-openaq-tvOSTests-acknowledgements.plist */,
-				A2926236F4D4054E266309C3A42B1B19 /* Pods-openaq-tvOSTests-dummy.m */,
-				68A0F3A199526E04607F724F72D5F4D0 /* Pods-openaq-tvOSTests-frameworks.sh */,
-				B4B5D46B26FB99F03E51C78A4AE50AAF /* Pods-openaq-tvOSTests-resources.sh */,
-				18E8DC1FC444C28695F67733215BC01C /* Pods-openaq-tvOSTests.debug.xcconfig */,
-				B9F17DD3723BF9DB4A218ECEA0873797 /* Pods-openaq-tvOSTests.release.xcconfig */,
-			);
-			name = "Pods-openaq-tvOSTests";
-			path = "Target Support Files/Pods-openaq-tvOSTests";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,34 +85,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D5DF798A702B31BD59B0D37481589FA2 /* Pods-openaq */ = {
+		FEA1B1E2EC8380EA97AC5D7BAA7C922B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2718B28991D2CA79EBB21271AA985B1 /* Pods-openaq-acknowledgements.markdown */,
-				1BB93828F887A2FEEB3CE11ECF93D0AC /* Pods-openaq-acknowledgements.plist */,
-				BF0FEFEB82DA598BC871F807D6C38FA6 /* Pods-openaq-dummy.m */,
-				C30C375BCB2D8BE1B593E57AEC25A43D /* Pods-openaq-frameworks.sh */,
-				1BBDC58AE1EBDC805E619122DFE74B39 /* Pods-openaq-resources.sh */,
-				E519572F2B136F057BC924117A08FBFD /* Pods-openaq.debug.xcconfig */,
-				FF5D1D69E705539EEBFEFB04FD96754E /* Pods-openaq.release.xcconfig */,
+				D1762FF33BE639B6ECE275F24B78FDDD /* libPods-openaq.a */,
 			);
-			name = "Pods-openaq";
-			path = "Target Support Files/Pods-openaq";
-			sourceTree = "<group>";
-		};
-		F6736AC32DC41744095EC7A67E444C97 /* Pods-openaqTests */ = {
-			isa = PBXGroup;
-			children = (
-				94EA16BFA8335845095CEB9947D432F2 /* Pods-openaqTests-acknowledgements.markdown */,
-				613FBC55C256724B48FFC6D708F0E5D5 /* Pods-openaqTests-acknowledgements.plist */,
-				B26C553681C14669D47CB73230EC2BCF /* Pods-openaqTests-dummy.m */,
-				5C867D3CF37B41F59FC8E5FD9C6C6420 /* Pods-openaqTests-frameworks.sh */,
-				35110F0F46227675D55731154F633550 /* Pods-openaqTests-resources.sh */,
-				69A8A86BA696E9537A1D2A2D0B73C93C /* Pods-openaqTests.debug.xcconfig */,
-				0123880CC68899A0DA2B5FE1240A4908 /* Pods-openaqTests.release.xcconfig */,
-			);
-			name = "Pods-openaqTests";
-			path = "Target Support Files/Pods-openaqTests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,39 +109,7 @@
 			);
 			name = "Pods-openaq";
 			productName = "Pods-openaq";
-			productReference = A92EA23F325C6E83A107B5C5B2E01A02 /* libPods-openaq.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		58CD72F343BA8062B2714D8DD876FAFB /* Pods-openaqTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7CB2704223966AFE37681D69D8BB8C6E /* Build configuration list for PBXNativeTarget "Pods-openaqTests" */;
-			buildPhases = (
-				37D2E2BE3F359B5CAE0B70B364A4695A /* Sources */,
-				F141BC715F6CFDEE960AFECB2E096BD0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-openaqTests";
-			productName = "Pods-openaqTests";
-			productReference = 1DF5FFBEE24918C4082DD00540B3353E /* libPods-openaqTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		C690E4251A2100E44A8AB22F0AE7FD9D /* Pods-openaq-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9E1ECDE424424D3E7247E78544DF3C5F /* Build configuration list for PBXNativeTarget "Pods-openaq-tvOSTests" */;
-			buildPhases = (
-				8FABBC870F15CA360D8FF2227FA450EC /* Sources */,
-				51FE1E2726408FD09C1C0345F25F07E2 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-openaq-tvOSTests";
-			productName = "Pods-openaq-tvOSTests";
-			productReference = E8217533767E83C777456BCDF823610E /* libPods-openaq-tvOSTests.a */;
+			productReference = D1762FF33BE639B6ECE275F24B78FDDD /* libPods-openaq.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -231,34 +129,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BB90E96E34A5355DEB83276CDF96C595 /* Products */;
+			productRefGroup = FEA1B1E2EC8380EA97AC5D7BAA7C922B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5078723D561DDDAF0D0EBD3D5A0F94B3 /* Pods-openaq */,
-				C690E4251A2100E44A8AB22F0AE7FD9D /* Pods-openaq-tvOSTests */,
-				58CD72F343BA8062B2714D8DD876FAFB /* Pods-openaqTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37D2E2BE3F359B5CAE0B70B364A4695A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E8C6D9B02B6C6EA82DC52F40E951B1B /* Pods-openaqTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FABBC870F15CA360D8FF2227FA450EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				082732B3DDDE76220CF8436634BE4151 /* Pods-openaq-tvOSTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B1B2C831B26ACEC48629F52FCCA64829 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,101 +243,9 @@
 			};
 			name = Release;
 		};
-		4373945D883AFC90FA731D7BA4582BE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0123880CC68899A0DA2B5FE1240A4908 /* Pods-openaqTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		47F975B7725A62E283A65ADB741FB41C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E8DC1FC444C28695F67733215BC01C /* Pods-openaq-tvOSTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7B1362D9CE3EF0F75FDCB13ACBAEFD80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69A8A86BA696E9537A1D2A2D0B73C93C /* Pods-openaqTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		883694493A1D37C93630690C15C8E5D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9F17DD3723BF9DB4A218ECEA0873797 /* Pods-openaq-tvOSTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		B11FC52200C467A46288866F92BD4444 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF5D1D69E705539EEBFEFB04FD96754E /* Pods-openaq.release.xcconfig */;
+			baseConfigurationReference = 8CAE33B32488CECACCC001794D3C45FF /* Pods-openaq.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -480,7 +268,7 @@
 		};
 		D3871A40F2E22088A92071AB344CFB5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E519572F2B136F057BC924117A08FBFD /* Pods-openaq.debug.xcconfig */;
+			baseConfigurationReference = D46F62DE2E1697B194B2FDBE1A8676FC /* Pods-openaq.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -513,29 +301,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CB2704223966AFE37681D69D8BB8C6E /* Build configuration list for PBXNativeTarget "Pods-openaqTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B1362D9CE3EF0F75FDCB13ACBAEFD80 /* Debug */,
-				4373945D883AFC90FA731D7BA4582BE8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9B80A0EADC4A81BF1F76C2A8A55566CA /* Build configuration list for PBXNativeTarget "Pods-openaq" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3871A40F2E22088A92071AB344CFB5F /* Debug */,
 				B11FC52200C467A46288866F92BD4444 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E1ECDE424424D3E7247E78544DF3C5F /* Build configuration list for PBXNativeTarget "Pods-openaq-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47F975B7725A62E283A65ADB741FB41C /* Debug */,
-				883694493A1D37C93630690C15C8E5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

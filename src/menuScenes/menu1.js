@@ -1,3 +1,9 @@
+/**
+ * Air Quality Now.
+ * By Ashish Kapoor.
+ * All rights reserved.
+ */
+
 import React, { Component } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, StatusBar } from 'react-native'
 import MapView from 'react-native-maps';
@@ -42,7 +48,7 @@ export default class Menu1 extends Component {
 const rightButtonConfig = {
   title: 'Info',
   tintColor: 'black',
-  handler: () => alert('By Ashish on React Native.'),
+  handler: () => alert('powered by React Native'),
 };
 
 const titleConfig = {
