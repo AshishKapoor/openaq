@@ -19,19 +19,18 @@ export default class Menu1 extends Component {
         longitude: 77.1025,
       }
     }
-  
     
     navigator.geolocation.getCurrentPosition((position) => {
-      this.setState({position: {longitude: position.longitude, latitude: position.latitude}});
+      this.setState({position: {longitude: position.longitude, latitude: positgition.latitude}});
     }, (error) => {
       alert(JSON.stringify(error))
     }, {
-      enableHighAccuracy: true,
+      enableHighAccuracy: false,
       timeout: 20000,
-      maximumAge: 1000
+      maximumAge: 10000
     });
   }
-
+  
   getInitialState() {
     return {
       coordinate: {
@@ -50,20 +49,17 @@ export default class Menu1 extends Component {
         <TouchableOpacity 
         style={styles.sideBar}
         onPress={ () => this.props.handleMenu() }>
-        <Text style={styles.btnText}>{'Home'}</Text>
+        <Text style={styles.btnText}>{'Menu'}</Text>
         </TouchableOpacity>
       }
       rightButton={ rightButtonConfig }
       />
       
-      <MapView
-      style= {styles.mapView}
-      >
-      
+      <MapView style= {styles.mapView}>
       <MapView.Marker
-        coordinate={this.state.coordinate}
-        title="title"
-        description="description"
+      coordinate={this.state.coordinate}
+      title="title"
+      description="description"
       />
       
       </MapView>
@@ -76,6 +72,11 @@ const rightButtonConfig = {
   title: 'Info',
   tintColor: 'black',
   handler: () => alert('powered by React Native')
+};
+
+const leftButtonConfig = {
+  title: 'Menu',
+  tintColor: 'black',
 };
 
 const titleConfig = {
@@ -96,8 +97,7 @@ const styles = StyleSheet.create({
   },
   sideBar: {
     flex: 1,
-    flexDirection: 'row',
-    
+    flexDirection: 'row',  
   },
   mapView: {
     flex: 10,
