@@ -47,7 +47,7 @@ class openaq extends Component {
             renderScene: <Menu1 handleMenu={this.handleMenu.bind(this)}/>
           },
           {
-            title: 'Menu 2',
+            title: 'Menu 3',
             icon: <Icon name="bell" size={35} color='#ffffff' />,
             renderScene: <Menu2 handleMenu={this.handleMenu.bind(this)}/>
           }

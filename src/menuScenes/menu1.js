@@ -21,7 +21,7 @@ export default class Menu1 extends Component {
     }
     
     navigator.geolocation.getCurrentPosition((position) => {
-      this.setState({position: {longitude: position.longitude, latitude: positgition.latitude}});
+      this.setState({position: {longitude: position.longitude, latitude: position.latitude}});
     }, (error) => {
       alert(JSON.stringify(error))
     }, {
